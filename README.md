@@ -19,7 +19,7 @@ Follow these steps to set up the server locally:
    Open your terminal and run the following command to clone the repository:
 
    
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/Atanurag/crypto_server.git
 
 
 2. *Navigate to project dir*
