@@ -57,6 +57,5 @@ The following endpoints are available for retrieving cryptocurrency data:
 
 - **WebSocket Connection**
   - Description: Establish a WebSocket connection to receive real-time updates  from Binance.
-  - Endpoint: `ws://localhost:3000/ws/binance`
+  - Endpoint: `wss://stream.binance.com:9443/ws/btcusdt@kline_1s'
   - Usage: Connect to this WebSocket endpoint to start receiving live market data for the specified cryptocurrencies. The server will push real-time updates as they occur.
-/
