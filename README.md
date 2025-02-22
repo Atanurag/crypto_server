@@ -30,3 +30,33 @@ Follow these steps to set up the server locally:
    npm install
 
    node index.js OR  node ws.js
+
+
+## Usage
+
+This Express.js server provides a set of RESTful API endpoints for accessing cryptocurrency data, as well as a WebSocket endpoint for real-time updates from Binance. The server is designed to be accessed by the corresponding frontend application.
+
+### API Endpoints
+
+The following endpoints are available for retrieving cryptocurrency data:
+
+- **GET /binance-spot-data**
+  - Description: Retrieve a binance spot data with parameters associated with endpoint.
+   
+
+- **GET /binance-futures-data**
+  - Description: Retrieve binance futures data
+  - 
+  **GET /mexc-spot-data**
+  - Description: Retrieves the MEXC spot databwith query params associated.
+ 
+  **Etc**
+  
+
+### WebSocket Endpoint
+
+- **WebSocket Connection**
+  - Description: Establish a WebSocket connection to receive real-time updates  from Binance.
+  - Endpoint: `ws://localhost:3000/ws/binance`
+  - Usage: Connect to this WebSocket endpoint to start receiving live market data for the specified cryptocurrencies. The server will push real-time updates as they occur.
+/
